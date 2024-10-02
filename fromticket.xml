@@ -1,0 +1,59 @@
+<?xml
+version="1.0" encoding="UTF-8" standalone="no"?>
+<VAST xmlns="http://www.iab.com/VAST" version="4.1">
+<Ad>
+<InLine>
+<AdSystem version="24.69">SOMA</AdSystem>
+<Error>
+<![CDATA[ http://vet-us-east-1.track.smaato.net/error?sessionId=9c2ec0d8-db1a-e620-97a8-7679a301a74c&adSourceId=7a21581a-c520-35f4-6547-e8c6c723ead3&originalRequestTime=1726159092847&e=soma&errorCode=[ERRORCODE] ]]>
+</Error>
+<Impression>
+<![CDATA[ http://ets-us-east-1.track.smaato.net/v1/view?sessionId=9c2ec0d8-db1a-e620-97a8-7679a301a74c&adSourceId=7a21581a-c520-35f4-6547-e8c6c723ead3&originalRequestTime=1726159092847&e=soma&c=soma&expires=1726159332847 ]]>
+</Impression>
+<AdServingId>9c2ec0d8-db1a-e620-97a8-7679a301a74c</AdServingId>
+<AdTitle>Test Video from Smaato</AdTitle>
+<Creatives>
+<Creative adId="24628">
+<UniversalAdId idRegistry="unknown">unknown</UniversalAdId>
+<Linear>
+<TrackingEvents>
+<Tracking event="start">
+<![CDATA[ http://vet-us-east-1.track.smaato.net/start?sessionId=9c2ec0d8-db1a-e620-97a8-7679a301a74c&adSourceId=7a21581a-c520-35f4-6547-e8c6c723ead3&originalRequestTime=1726159092847&e=soma ]]>
+</Tracking>
+<Tracking event="firstQuartile">
+<![CDATA[ http://vet-us-east-1.track.smaato.net/firstQuartile?sessionId=9c2ec0d8-db1a-e620-97a8-7679a301a74c&adSourceId=7a21581a-c520-35f4-6547-e8c6c723ead3&originalRequestTime=1726159092847&e=soma ]]>
+</Tracking>
+<Tracking event="midpoint">
+<![CDATA[ http://vet-us-east-1.track.smaato.net/midpoint?sessionId=9c2ec0d8-db1a-e620-97a8-7679a301a74c&adSourceId=7a21581a-c520-35f4-6547-e8c6c723ead3&originalRequestTime=1726159092847&e=soma ]]>
+</Tracking>
+<Tracking event="thirdQuartile">
+<![CDATA[ http://vet-us-east-1.track.smaato.net/thirdQuartile?sessionId=9c2ec0d8-db1a-e620-97a8-7679a301a74c&adSourceId=7a21581a-c520-35f4-6547-e8c6c723ead3&originalRequestTime=1726159092847&e=soma ]]>
+</Tracking>
+<Tracking event="complete">
+<![CDATA[ http://vet-us-east-1.track.smaato.net/complete?sessionId=9c2ec0d8-db1a-e620-97a8-7679a301a74c&adSourceId=7a21581a-c520-35f4-6547-e8c6c723ead3&originalRequestTime=1726159092847&e=soma ]]>
+</Tracking>
+</TrackingEvents>
+<Duration>00:00:12</Duration>
+<MediaFiles>
+<MediaFile bitrate="1133000" delivery="progressive" height="720" type="video/mp4" width="1280">
+<![CDATA[ https://creatives-1100042525.smaato.com/videos/1637235247912_9380080c-1a4e-48a2-ad92-76a86912be58.mp4 ]]>
+</MediaFile>
+</MediaFiles>
+<VideoClicks>
+<ClickThrough>
+<![CDATA[ https://www.smaato.com ]]>
+</ClickThrough>
+<ClickTracking>
+<![CDATA[ http://ets-us-east-1.track.smaato.net/v1/click?sessionId=9c2ec0d8-db1a-e620-97a8-7679a301a74c&adSourceId=7a21581a-c520-35f4-6547-e8c6c723ead3&originalRequestTime=1726159092847&e=soma ]]>
+</ClickTracking>
+</VideoClicks>
+</Linear>
+</Creative>
+</Creatives>
+<Description>Video</Description>
+<Pricing currency="USD" model="CPM">
+<![CDATA[ 10.0 ]]>
+</Pricing>
+</InLine>
+</Ad>
+</VAST>
