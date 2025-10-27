@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><VAST xmlns="http://www.iab.com/VAST" version="4.2">
+  <Ad id="6723605" sequence="1">
+    <InLine>
+      <AdSystem>HyprMX</AdSystem>
+      <AdTitle>Podcast Offer</AdTitle>
+      <Impression>   
+        <![CDATA[https://6bcb5a28-cecd-4f13-9d27-8f1543c77537.mock.pstmn.io/tracking/impression?cache_busting=[CACHEBUSTING]]]>
+      </Impression>
+      <Creatives>
+        <Creative id="podcast-creative-600">
+          <Linear>
+            <Duration>00:01:08</Duration>
+            <TrackingEvents>
+                <Tracking event="start"><![CDATA[https://6bcb5a28-cecd-4f13-9d27-8f1543c77537.mock.pstmn.io/tracking/start?server_tag=1]]></Tracking>
+                <Tracking event="firstQuartile"><![CDATA[https://6bcb5a28-cecd-4f13-9d27-8f1543c77537.mock.pstmn.io/tracking/firstQuartile?server_tag=1]]></Tracking>
+                <Tracking event="midpoint"><![CDATA[https://6bcb5a28-cecd-4f13-9d27-8f1543c77537.mock.pstmn.io/tracking/midpoint?server_tag=1]]></Tracking>
+                <Tracking event="thirdQuartile"><![CDATA[https://6bcb5a28-cecd-4f13-9d27-8f1543c77537.mock.pstmn.io/tracking/thirdQuartile?server_tag=1]]></Tracking>
+                <Tracking event="complete"><![CDATA[https://6bcb5a28-cecd-4f13-9d27-8f1543c77537.mock.pstmn.io/tracking/complete?server_tag=1]]></Tracking>
+                <Tracking event="closable"><![CDATA[https://6bcb5a28-cecd-4f13-9d27-8f1543c77537.mock.pstmn.io/tracking/closable?server_tag=1]]></Tracking>
+            </TrackingEvents>
+            <MediaFiles>
+                <MediaFile delivery="progressive" type="audio/mpeg">
+                    <![CDATA[https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/67547682/podcast1.mp3]]>
+                </MediaFile>
+            </MediaFiles>
+          </Linear>
+          <Extensions>
+            <Extension type="HyprMX">
+              <Podcast creativeID="podcast-creative-600" title="Mobile Games X taylor swift" skipOffset="00:00:05">
+                <HeaderText>
+                  <Text><![CDATA[Recommended for You]]></Text>
+                  <ClickURL><![CDATA[https://www.spreaker.com/podcast/the-everyday-banter--6723605]]></ClickURL>
+                  <ClickTracking><![CDATA[https://6bcb5a28-cecd-4f13-9d27-8f1543c77537.mock.pstmn.io/tracking/podcast?event=header_text_click&cid=[CREATIVE_ID]]]></ClickTracking>
+                </HeaderText>
+                <Artwork>
+                  <StaticResource creativeType="image/jpeg"><![CDATA[https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/5fd74c825e8760b3c1fc5d1d45367212.jpg]]></StaticResource>
+                  <ClickURL><![CDATA[https://www.spreaker.com/podcast/the-everyday-banter--6723605]]></ClickURL>
+                  <ClickTracking><![CDATA[https://6bcb5a28-cecd-4f13-9d27-8f1543c77537.mock.pstmn.io/tracking/podcast?event=artwork_click&cid=[CREATIVE_ID]]]></ClickTracking>
+                </Artwork>
+                <ShowName><![CDATA[The Everyday Banter]]></ShowName>
+                <CallToActions>
+                  <CTA id="cta-1" platform="Spotify">
+                    <StaticResource creativeType="image/png"><![CDATA[https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/2048px-Spotify_logo_without_text.svg.png]]></StaticResource>
+                    <ClickURL><![CDATA[https://open.spotify.com/show/example]]></ClickURL>
+                    <ClickTracking event="ctaClick"><![CDATA[https://6bcb5a28-cecd-4f13-9d27-8f1543c77537.mock.pstmn.io/tracking/podcast?event=cta_click&cid=[CREATIVE_ID]&cta_id=cta-1]]></ClickTracking>
+                  </CTA>
+                </CallToActions>
+                <DAA>
+                  <StaticResource creativeType="image/png"><![CDATA[https://stg-player-static.hyprmx.com/images/MobileSDK/AdChoices%20Icon.png]]></StaticResource>
+                  <ClickURL><![CDATA[https://www.hyprmx.com/privacy-choices]]></ClickURL>
+                </DAA>
+                <CustomTrackingEvents>
+                </CustomTrackingEvents>
+              </Podcast>
+            <Experience xmlns="" name="undefined"/></Extension>
+          </Extensions>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
